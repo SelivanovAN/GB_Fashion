@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Single Page</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/981c296276.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+    <main class="wrapper-container">
+        <header class="header container">
+            <div class="header_left">
+                <a href="index.html" class="header_brand">
+                    <img src="img/logo.png" alt="logo">Bran<span class="header_logo-d">d</span>
+                </a>
+                <form action="" method="get" class="header_search">
+                	<div class="header_browse">Browse <i class="fas fa-caret-down"></i></div>
+                	<input type="text" name="search" placeholder="Search for Item...">
+                	<button class="header_btn"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <div class="header_right">
+        		<img src="img/bascet.png" alt="cart">
+        		<a href="#" class="header_account">My Account</a>
+        	</div>
+        </header>
+        <nav class="menu container">
+        	<a href="#" class="menu-link">Home</a>
+        	<a href="#" class="menu-link">Man</a>
+        	<a href="#" class="menu-link">Women</a>
+        	<a href="#" class="menu-link">Kids</a>
+        	<a href="#" class="menu-link">Accoseriese</a>
+        	<a href="#" class="menu-link">Featured</a>
+        	<a href="#" class="menu-link">Hot Deals</a>
+        </nav>
+        <div class="arrivals-wrapper">
+        	<article class="arrivals container">
+        		<section class="arrivals_h2">new arrivals
+        		</section>
+        		<section class="arrivals_links">
+					<a href="#" class="arrivals_link">home /&nbsp;</a>
+					<a href="#" class="arrivals_link"> men /&nbsp;</a>
+					<a href="#" class="arrivals_link arrivals_link-active"> new arrivals </a>
+        		</section>
+        	</article>
+        </div>
+		<article class="details container">
+			<div class="details-wrap-menu">
+				<h2 class="details_h2 details_css">Product Details</h2>
+				<section class="details_text">
+					<span class="details_price details_css">unite Price</span>
+					<span class="details_quantity details_css">Quantity</span>
+					<span class="details_shipping details_css">shipping</span>
+					<span class="details_subtotal details_css">Subtotal</span>
+					<span class="details_action details_css">ACTION</span>
+				</section>
+			</div>
+			<div class="detail_wrap-content">
+				<section class="details_content-img-wrap">
+					<section class="details_img details_img-1"></section>
+					<section class="details_img-text">
+						<h2 class="detail_img-h2">Mango  People  T-shirt</h2>
+						<h3 class="details_img-color">Color:<span class="detail_img-color-show">Red</span></h3>
+						<h3 class="detail_img-size">Size:<span class="details_img-size-show">Xll</span></h3>
+					</section>
+				</section>
+				<section class="details_img-count">
+					<span class="details_price details_img-css">$150</span>
+					<input type="number" class="details_img-quantity details_img-css" placeholder="2">
+					<span class="details_shipping details_img-css">free</span>
+					<span class="details_subtotal details_img-css">$300</span>
+					<span class="details_img-action details_img-css"></span>
+				</section>
+			</div>
+			<div class="detail_wrap-content">
+				<section class="details_content-img-wrap">
+					<section class="details_img details_img-2"></section>
+					<section class="details_img-text">
+						<h2 class="detail_img-h2">Mango  People  T-shirt</h2>
+						<h3 class="details_img-color">Color:<span class="detail_img-color-show">Red</span></h3>
+						<h3 class="detail_img-size">Size:<span class="details_img-size-show">Xll</span></h3>
+					</section>
+				</section>
+				<section class="details_img-count">
+					<span class="details_price details_img-css">$150</span>
+					<input type="number" class="details_img-quantity details_img-css" placeholder="2">
+					<span class="details_shipping details_img-css">free</span>
+					<span class="details_subtotal details_img-css">$300</span>
+					<span class="details_img-action details_img-css"></span>
+				</section>
+			</div>
+			<div class="detail_wrap-content">
+				<section class="details_content-img-wrap">
+					<section class="details_img details_img-3"></section>
+					<section class="details_img-text">
+						<h2 class="detail_img-h2">Mango  People  T-shirt</h2>
+						<h3 class="details_img-color">Color:<span class="detail_img-color-show">Red</span></h3>
+						<h3 class="detail_img-size">Size:<span class="details_img-size-show">Xll</span></h3>
+					</section>
+				</section>
+				<section class="details_img-count">
+					<span class="details_price details_img-css">$150</span>
+					<input type="number" class="details_img-quantity details_img-css" placeholder="2">
+					<span class="details_shipping details_img-css">free</span>
+					<span class="details_subtotal details_img-css">$300</span>
+					<span class="details_img-action details_img-css"></span>
+				</section>
+			</div>
+		</article>
+        <article class="total container">
+        	<section class="total_btn-wrap">
+        		<a href="#" class="total_btn">cLEAR SHOPPING CART</a>
+        		<a href="#" class="total_btn">cONTINUE sHOPPING</a>
+        	</section>
+        	<section class="total_forms">
+        		<form action="get" class="total_form-adres">
+        			<h2 class="total_adres-h2">Shipping Adress</h2>
+        			<select size="1" name="cuntry" class="total_adres-select">
+    					<option selected>Bangladesh</option>
+    					<option>Russia</option>
+    					<option>USA</option>
+    					<option>Jappan</option>
+    					<option>Korea</option>
+   					</select>
+       				<input type="text" class="total-adres-state" placeholder="State">
+       				<input type="number" class="total-adres-zip" placeholder="Postcode / Zip">
+       				<a href="#" class="total_adres-btn">get a quote</a>
+        		</form>
+        		<form action="get" class="total_discount">
+        			<h2 class="total_discount-h2">coupon  discount</h2>
+        			<p class="total_discount-text">Enter your coupon code if you have one</p>
+        			<input type="text" class="total-discount-state" placeholder="State">
+        			<a href="#" class="total_discount-btn">Apply coupon</a>
+        		</form>
+        		<section class="total_price">
+        			<span class="total_price-sub">Sub total <span class="total_price-subprice">$900</span></span>
+        			<span class="total_price-grand">GRAND TOTAL<span class="total_price-grandprice">$900</span></span>
+        			<hr>
+        			<a href="#" class="total_price-btn">proceed to checkout</a>
+        		</section>
+        	</section>
+        </article>
+        <article class="subscribe-wrapper">
+        	<div class="subscribe container">
+				<section class="subscribe_comment">
+					<span class="subscribe_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</span>
+					<span class="subscribe_name">Bin Burhan</span>
+					<span class="subscribe_place">Dhaka, Bd</span>
+       				<div class="subscribe_pagination">
+                		<a href="#" class="quatro"></a>
+                		<a href="#" class="quatro quatro-active"></a>
+                		<a href="#" class="quatro"></a>
+            		</div>
+        		</section>
+        		<section class="subscribe_sign">
+        			<h2 class="subscribe_h4">Subscribe</h2>
+        			<span class="subscribe_sign-text">FOR OUR NEWLETTER AND PROMOTION</span>
+        			<form action="#" class="subscribe_form">
+        				<label><input type="email" class="subscribe_email" placeholder="Enter Your Email"></label>
+                        <button type="submit" class="subscribe-btn">Subscribe</button>
+        			</form>
+        		</section>
+        	</div>
+        </article>
+        <footer class="pre-footer container">
+        	<section class="pre-footer_logo">
+        		<div class="pre-footer_logo-img">
+        			<a href="index.html" class="pre-logo">
+                    	<img src="img/logo.png" alt="logo">bran <span class="pre-footer_logo-txt">d</span>
+                	</a>
+        		</div>
+        		<span class="pre-footer_text">
+                		Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                	</span>
+                <span class="pre-footer_text">
+                		Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                	</span>
+        	</section>
+        	<section class="pre-footer_inform">
+        		<div class="pre-footer_company">
+        			<span class="pre-footer_company-h4">company</span>
+        			<a href="#" class="pre-footer_company-link">Home</a>
+        			<a href="#" class="pre-footer_company-link">Shop</a>
+        			<a href="#" class="pre-footer_company-link">About</a>
+        			<a href="#" class="pre-footer_company-link">How it Works</a>
+        			<a href="#" class="pre-footer_company-link">Contact</a>
+        		</div>
+        		<div class="pre-footer_information">
+        			<span class="pre-footer_information-h4">information</span>
+        			<a href="#" class="pre-footer_information-link">Tearms &amp; Condition</a>
+        			<a href="#" class="pre-footer_information-link">Privacy Policy</a>
+        			<a href="#" class="pre-footer_information-link">How to Buy</a>
+        			<a href="#" class="pre-footer_information-link">How to Sell</a>
+        			<a href="#" class="pre-footer_information-link">Promotios</a>
+        		</div>
+        		<div class="pre-footer_shop">
+        			<span class="pre-footer_shop-h4">SHOP CATEGORY</span>
+        			<a href="#" class="pre-footer_shop-link">Men</a>
+        			<a href="#" class="pre-footer_shop-link">Women</a>
+        			<a href="#" class="pre-footer_shop-link">Child</a>
+        			<a href="#" class="pre-footer_shop-link">Apparel</a>
+        			<a href="#" class="pre-footer_shop-link">Brows All</a>
+        		</div>
+        	</section>
+        </footer>
+        <footer class="footer-wrapper">
+           <div class="footer container">
+           		<div class="footer_copyright">© 2017  Brand  All Rights Reserved.</div>
+            <div class="footer_social">
+                <a href="#" class="social-link social-f"></a>
+                <a href="#" class="social-link social-t"></a>
+                <a href="#" class="social-link social-i"></a>
+                <a href="#" class="social-link social-b"></a>
+                <a href="#" class="social-link social-g"></a>
+            </div>
+           </div>          
+        </footer>
+    </main>
+</body>
+</html>
